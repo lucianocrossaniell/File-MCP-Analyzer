@@ -1,4 +1,5 @@
 # File Analysis Application
+<img width="1437" alt="Screenshot 2025-07-08 at 12 00 28 PM" src="https://github.com/user-attachments/assets/aba25734-15f4-493d-851a-071d0bf7cd4c" />
 
 A comprehensive web application that allows users to upload various file types and interact with them through an AI-powered chatbot using Azure cloud services.
 
