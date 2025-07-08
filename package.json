@@ -1,0 +1,49 @@
+{
+  "name": "file-analysis-app",
+  "version": "1.0.0",
+  "description": "Web application for file analysis with Azure cloud services",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install",
+    "azure-mcp": "npx @azure/mcp@latest server start",
+    "dev-with-azure-mcp": "concurrently \"npm run azure-mcp\" \"npm run server\"",
+    "setup-azure": "./scripts/setup-azure.sh",
+    "cleanup-azure": "./scripts/cleanup-azure.sh"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.0.0",
+    "@azure/mcp": "latest",
+    "@azure/msal-node": "^2.6.6",
+    "@azure/openai": "^1.0.0-beta.11",
+    "@azure/storage-blob": "^12.17.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "mammoth": "^1.6.0",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1",
+    "openai": "5.8.2",
+    "pdf-parse": "^1.1.1",
+    "sharp": "^0.32.6",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  },
+  "author": "",
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  }
+}
