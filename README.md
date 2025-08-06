@@ -40,7 +40,7 @@ A comprehensive web application that allows users to upload various file types a
 
 ## Quick Start
 
-### 🚀 Automated Azure Setup
+### Automated Azure Setup
 
 Run the automated setup script to create all required Azure services:
 
@@ -65,10 +65,10 @@ Choose your preferred setup method:
 
 | Method | Difficulty | Interface | Guide |
 |--------|------------|-----------|-------|
-| **🌐 Azure Portal** | Beginner | Web Browser | [Quick](docs/QUICK_PORTAL_SETUP.md) \| [Detailed](docs/AZURE_SETUP_PORTAL.md) |
-| **🎯 VS Code Extensions** | Beginner | VS Code | [Quick](docs/VS_CODE_AZURE_SETUP.md) \| [Detailed](docs/AZURE_SETUP_VSCODE.md) |
-| **⚡ Automated Script** | Easy | Command Line | `npm run setup-azure` |
-| **🛠️ Manual CLI** | Advanced | Command Line | [CLI Guide](docs/AZURE_SETUP_GUIDE.md) |
+| ** Azure Portal** | Beginner | Web Browser | [Quick](docs/QUICK_PORTAL_SETUP.md) \| [Detailed](docs/AZURE_SETUP_PORTAL.md) |
+| ** VS Code Extensions** | Beginner | VS Code | [Quick](docs/VS_CODE_AZURE_SETUP.md) \| [Detailed](docs/AZURE_SETUP_VSCODE.md) |
+| ** Automated Script** | Easy | Command Line | `npm run setup-azure` |
+| **🛠 Manual CLI** | Advanced | Command Line | [CLI Guide](docs/AZURE_SETUP_GUIDE.md) |
 
 ## Running the Application
 
@@ -115,7 +115,7 @@ The application will be available at `http://localhost:3000`
 - Monitor usage with Azure Cost Management
 - Set spending alerts to avoid surprises
 
-## 🧹 Cleanup
+## Cleanup
 
 When you're done testing, clean up Azure resources to avoid charges:
 
