@@ -102,7 +102,7 @@ npm run client
 
 The application will be available at `http://localhost:3000`
 
-## 💰 Cost Estimation
+## Cost Estimation
 
 **Monthly costs for moderate usage:**
 - **Storage Account**: ~$0.02/GB + transactions (~$2-5)
